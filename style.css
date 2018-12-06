@@ -1,14 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 * {
-    border: 1px solid red;
+    border:1px solid red;
     font-family: 'Oswald', sans-serif;
     text-align: center;
 }
-
 #title {
     background: yellow;
     /*add CSS here*/
+    width: 200px;
+    margin:auto;
+    padding-left:30px;
+    padding-right:30px;
+
+
     
 }
 
@@ -16,12 +21,33 @@
     background: black;
     color: white;
     /*add CSS here*/
-    
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:auto;
+    width:200px;
 }
 
-.topic {
+.git, .mod, .web{
     background: lightgray;
     /*add CSS here*/
+    width: 100px;
+    border: 1px solid red;
     
 }
+.git{
+    margin-top:40px;
+    margin-left:10px;
+}
+.web{
+    margin-top:-27px;
+    margin-left:150px;
+    margin-right:300px;
+}
+.mod{
+    margin-left:310px;
+    margin-top:-27px;
+    margin-bottom: 30px;
+}
+
+
 
